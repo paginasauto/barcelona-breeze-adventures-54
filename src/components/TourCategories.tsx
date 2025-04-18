@@ -1,12 +1,12 @@
 
-import { Family, Heart, Utensils, PalmTree, Landmark, Bicycle } from 'lucide-react';
+import { Users, Heart, Utensils, Palmtree, Landmark, Bike } from 'lucide-react';
 
 const categories = [
   {
     id: 1,
     title: "Family Adventures",
     description: "Kid-friendly activities and tours designed for the whole family to enjoy.",
-    icon: Family,
+    icon: Users,
     color: "bg-blue-500"
   },
   {
@@ -27,7 +27,7 @@ const categories = [
     id: 4,
     title: "Beach Activities",
     description: "Fun experiences along Barcelona's beautiful Mediterranean coastline.",
-    icon: PalmTree,
+    icon: Palmtree,
     color: "bg-cyan-500"
   },
   {
@@ -41,7 +41,7 @@ const categories = [
     id: 6,
     title: "Outdoor Adventures",
     description: "Active tours for those seeking adventure in the Catalan countryside.",
-    icon: Bicycle,
+    icon: Bike,
     color: "bg-emerald-500"
   }
 ];
