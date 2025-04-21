@@ -1,4 +1,3 @@
-
 import { Facebook, Instagram, Twitter, Youtube, MapPin, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
@@ -7,7 +6,7 @@ const Footer = () => {
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Barcelona Breeze</h3>
+            <h3 className="text-2xl font-bold mb-4">Barcelona Adventures</h3>
             <p className="text-gray-400 mb-4">
               Creating unforgettable experiences in the heart of Catalonia since 2010. 
               Your trusted local tourism partner.

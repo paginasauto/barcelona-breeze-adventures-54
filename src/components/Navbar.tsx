@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -13,7 +12,7 @@ const Navbar = () => {
     <nav className="bg-white/90 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
       <div className="container py-4 flex justify-between items-center">
         <a href="/" className="flex items-center gap-2">
-          <span className="text-primary font-bold text-2xl">Barcelona Breeze</span>
+          <span className="text-primary font-bold text-2xl">Barcelona</span>
           <span className="text-secondary font-bold text-2xl">Adventures</span>
         </a>
         
