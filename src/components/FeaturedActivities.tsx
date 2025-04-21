@@ -1,4 +1,3 @@
-
 import { Clock, Users, Star } from 'lucide-react';
 
 const activities = [
@@ -55,6 +54,10 @@ const ActivityCard = ({ activity }: { activity: typeof activities[0] }) => {
         <img 
           src={activity.image} 
           alt={activity.title} 
+          onError={(e) => {
+            console.error(`Image load error for ${activity.title}:`, e);
+            (e.target as HTMLImageElement).src = '/placeholder.svg';
+          }}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm py-1 px-3 rounded-full text-sm font-semibold text-primary">
