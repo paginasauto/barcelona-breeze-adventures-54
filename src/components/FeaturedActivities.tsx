@@ -1,11 +1,10 @@
-
 import { Clock, Users, Star } from 'lucide-react';
 
 const activities = [
   {
     id: 1,
     title: "Sagrada Familia Guided Tour",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2000&auto=format&fit=crop", // Updated image URL
+    image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=2965&auto=format&fit=crop", // Updated Sagrada Familia image
     duration: "3 hours",
     group: "Small group",
     rating: 4.9,
@@ -27,7 +26,7 @@ const activities = [
   {
     id: 3,
     title: "Park Güell & Modernism Tour",
-    image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?q=80&w=2000&auto=format&fit=crop", // Updated Park Güell image
+    image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?q=80&w=2000&auto=format&fit=crop",
     duration: "4 hours",
     group: "Max 10 people",
     rating: 4.7,
