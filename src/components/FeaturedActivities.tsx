@@ -1,10 +1,11 @@
+
 import { Clock, Users, Star } from 'lucide-react';
 
 const activities = [
   {
     id: 1,
     title: "Sagrada Familia Guided Tour",
-    image: "https://images.unsplash.com/photo-1583779457094-ab6f59c6fc96?q=80&w=2070",
+    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2000&auto=format&fit=crop", // Updated image URL
     duration: "3 hours",
     group: "Small group",
     rating: 4.9,
