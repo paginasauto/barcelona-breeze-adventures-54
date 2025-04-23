@@ -27,7 +27,7 @@ const activities = [
   {
     id: 3,
     title: "Park Güell & Modernism Tour",
-    image: "https://images.unsplash.com/photo-1576668779319-3ae29b99129e?q=80&w=2072",
+    image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?q=80&w=2000&auto=format&fit=crop", // Updated Park Güell image
     duration: "4 hours",
     group: "Max 10 people",
     rating: 4.7,
